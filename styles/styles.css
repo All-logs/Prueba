@@ -11,6 +11,18 @@ body{
 
 
 
+main{
+    border: 5px solid tomato;
+
+}
+
 main section ul{
-    border: 5px tomato;
+    display: flex;
+    justify-content: center;
+}
+
+main section ul li{
+    font-size: 50px;
+    list-style-type: none;
+    margin: 25px;
 }
